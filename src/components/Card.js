@@ -22,8 +22,10 @@ const Cards = ({ details }) => {
   return (
     <div>
       <Card
-        className="shadow-lg rounded border border-white"
+        className="rounded"
         style={{
+          boxShadow:
+            "rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px",
           backgroundColor: "#00000000",
         }}
       >
